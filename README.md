@@ -4,7 +4,6 @@ Neurocheck is a Flask application designed to predict whether a person is at ris
 
 Machine Learning Model:
 The core of Neurocheck relies on a machine learning model called gradient boosting. This model works by combining multiple weak predictive models, known as decision trees, into a strong predictive model. The gradient boosting algorithm trains the model to learn from a training dataset, improving its predictive capabilities over time. By leveraging this model, Neurocheck can accurately assess the risk of stroke based on various medical indicators.
-
 Deployment on AWS EC2:
 Neurocheck is deployed using an AWS EC2 instance, which provides a scalable and secure infrastructure for hosting the application. The EC2 instance makes use of the powerful computing resources provided by AWS, ensuring high performance and availability. This deployment method allows users to access Neurocheck remotely, making it accessible to healthcare professionals and individuals seeking to assess their stroke risk.
 
