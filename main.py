@@ -16,6 +16,7 @@ model = pickle.load(open('log.pkl', 'rb'))
 app = Flask(__name__, template_folder='template')
 
 
+
 uri = "mongodb+srv://divijkharche01:LEATHERbat01@cluster0.g4wwula.mongodb.net/?retryWrites=true&w=majority"
 # Create a new client and connect to the server
 client = MongoClient(uri,connect=False)
