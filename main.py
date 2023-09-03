@@ -36,7 +36,6 @@ collection = db.user
 def home():
     return render_template('home.html')
 
-
 @app.route('/register.html', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
