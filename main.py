@@ -32,8 +32,6 @@ collection = db.user
 
 
 
-
-
 @app.route('/')
 def home():
     return render_template('home.html')
